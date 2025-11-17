@@ -1,0 +1,21 @@
+// Project-local debug tasks
+//
+// For more documentation on how to configure debug tasks,
+// see: https://zed.dev/docs/debugger
+[
+  {
+     "label": "Python",
+     "adapter": "Debugpy",
+     "request": "launch",
+     "cwd": "$ZED_WORKTREE_ROOT",
+     "python": "./.venv/bin/python",
+     "module": "mcp_fetch",
+     "args": [
+
+     ],
+     "autoReload": {
+       "enable": true
+     },
+     "justMyCode": true
+   }
+]

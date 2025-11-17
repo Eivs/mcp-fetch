@@ -585,7 +585,7 @@ wheels = [
 ]
 
 [[package]]
-name = "mcp-server-fetch"
+name = "mcp-fetch"
 version = "0.6.3"
 source = { editable = "." }
 dependencies = [

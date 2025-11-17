@@ -171,7 +171,7 @@ def get_app(auth_token: str | None = None):
     Returns:
         ASGI application
     """
-    app = mcp.streamable_http_app
+    app = mcp.streamable_http_app()
 
     if auth_token:
         app = create_auth_middleware(app, auth_token)
